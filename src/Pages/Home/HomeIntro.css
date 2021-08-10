@@ -1,0 +1,45 @@
+.homeIntro-container{
+    background-color: rgb(221, 221, 221);
+    display: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 4rem auto 0 auto;
+    align-content: center;
+}
+.homeIntro-image-wrapper{
+    display: flex;
+  overflow: hidden;
+  min-width: 10rem;
+  min-height: 10rem;
+  margin: auto;
+}
+.homeIntro-image-figure{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  object-fit: fill;
+  margin:auto;
+}
+.homeIntro-image{
+    flex-shrink: 0;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.homeIntro-info{
+    max-width: 70rem;
+    padding: 20px 30px 30px;
+    overflow: hidden;
+  }
+  .homeIntro-title{
+    margin: 1rem;
+    color: rgb(7, 7, 7);
+    font-size: 25px;
+    line-height: 24px;
+  }
+  .homeIntro-text{
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+    line-height: 24px;
+  }
